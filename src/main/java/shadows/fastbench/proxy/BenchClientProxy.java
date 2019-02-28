@@ -28,7 +28,7 @@ public class BenchClientProxy implements IBenchProxy {
 
 	@Override
 	public void replacePlayerList(MinecraftServer server) {
-		if (!(server.getPlayerList() instanceof HijackedPlayerList)) server.setPlayerList(new HijackedPlayerList((IntegratedServer) server));
+		server.setPlayerList(new HijackedPlayerList((IntegratedServer) server));
 	}
 
 	@Override

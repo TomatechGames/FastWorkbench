@@ -9,10 +9,7 @@ import net.minecraft.client.gui.recipebook.GuiRecipeBook;
 import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.crafting.IRecipe;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
-@SideOnly(Side.CLIENT)
 public class GuiDedBook extends GuiRecipeBook {
 
 	@Override
